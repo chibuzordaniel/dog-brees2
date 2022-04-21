@@ -1,0 +1,217 @@
+
+.showcase-cont{
+    padding-top: 150px;
+    text-align: center;
+}
+
+
+.showcase-cont > h2{
+    font-family: 'Dancing Script';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 96px;
+    line-height: 115px;
+    font-style: oblique;
+}
+
+.dog{
+    padding-top: 180px;
+    display: flex;
+}
+
+.dog > div {
+    padding-top: 7px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+
+.dog > h1 {
+    padding-left: 80px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 58px;
+}
+
+.list{
+    padding-top: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5F718C;
+}
+
+.dog-list{
+    display: flex;
+}
+
+.dog-list > h4{
+    padding-top: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.selected{
+    display: flex;
+}
+
+
+
+ select option{
+    font-size: 17px;
+  
+} 
+
+
+.select-breed  select option{
+    border: none;
+    background: none;
+}
+
+
+.select-breed > select {
+    width: 80px;
+    margin-top: 10px;
+   outline: none;
+   border: none;
+   background: #ccc;
+}
+
+
+
+.dog-flex-row{
+    display: flex;
+    margin-left: 130px;
+}
+
+.opt > select{
+    width: 173px;
+    height: 48px;
+}
+
+.opt2{
+    margin-left: 40px;
+}
+
+
+.dog-flex-row > button{
+    width: 264px;
+    height: 46px;
+    margin-left: 307px;
+    background: #000000;
+    color: #ffffff;
+    border: none;
+    outline: none;
+}
+
+
+@media screen and (max-width: 768px) {
+    .showcase-cont {
+     position: relative;
+     left: 195px;
+   
+    }
+
+    .selected{
+        margin-left: 20px;
+    }
+   
+
+    .dog > div{
+        display: none;
+    }
+
+    .dog  > h1{
+       position: relative;
+       top: 730px;
+       padding-left: 160px;
+       font-size: 80px;
+    }
+
+    .list{
+        display: none;
+    }
+
+    .select-breed {
+        background: #ffffff;
+        position: absolute;
+        top: 600px;
+        left: 150px;
+        height: 120px;
+        display: block;
+        width: 890px;
+    }
+
+    .select-breed > select{
+        width: 870px;
+        background: #ffffff;
+        padding: 30px;
+        font-size: 30px;
+    }
+
+    .dog-flex-row{
+        display: block;
+    }
+
+    .opt > select{
+        width: 890px;
+        height: 120px;
+        font-size: 30px;
+        padding-left: 20px;
+        margin-top: 60px;
+    }
+
+    .opt2 > select{
+       margin-left: -40px; 
+       margin-top: 60px;
+    }
+
+
+    .dog-flex-row > button{
+        width: 890px;
+        height: 120px;
+        margin-top: 80px;
+        margin-left: 0px;
+        font-size: 27px; 
+    }
+
+
+}
+
+
+
+@media screen and (max-width: 500px) {
+
+    
+
+    .showcase-cont{
+        margin-left: 46px;
+    }
+   
+    .showcase-cont > img {
+        margin-left: 115px;
+        width: 450px;
+    }
+
+   .showcase-cont > h2{
+        width: 700px;
+        font-size: 120px;
+   } 
+
+   .dog > h1{
+    min-width: 650px;
+   }
+
+}
+
+

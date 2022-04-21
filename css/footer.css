@@ -1,0 +1,155 @@
+#footer-line{
+    margin-top: 40px;
+    height: 600px;
+    border-top: 1px solid #E3E7EE;
+}
+
+
+
+.footer{
+     padding-top: 90px;
+     display: flex; 
+     justify-content: space-between;
+   
+    
+}
+
+.dog-p > p {
+   padding-top: 25px;
+}
+
+.dog-newsletter{
+    line-height: 1.5;
+}
+
+
+
+.footer-content > img {
+    width: 40px;
+
+}
+
+
+.footer-content > h1{
+    margin-top: -40px;
+    margin-left: 60px;
+    width: 95px;
+    height: 29px;
+}
+
+
+.footer-content > p{
+    width: 317px;
+    height: 120px;
+}
+
+
+.footer-join > input{
+    margin-top: 35px;
+    width: 304px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 2px solid #E3E7EE;
+    box-sizing: border-box;
+    border-radius: 30px;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+}
+
+.footer-svg {
+    margin-top: -40px;
+    margin-left: 260px;
+    width: 40.71px;
+    height: 30.7px;
+    background: black;
+    clip-path: circle();
+    padding: 10px;
+}
+
+
+@media screen and (max-width: 768px) {
+
+  .footer{
+      display: block;
+      padding-left: 80px;
+  }  
+
+
+  #footer-line {
+     width: 1200px;
+
+  }
+
+  .footer-content > img{
+      width: 99px;
+      height: 90px;
+  }
+
+  .footer-content > h1 {
+      padding-left: 60px;
+      font-size: 60px;
+      margin-top: -80px;
+  }
+
+  .footer-content > p {
+    font-size: 40px;
+    padding-top: 70px;
+    width: 500px;
+  }
+
+  .footer-popular{
+      padding-top: 490px;
+  }
+
+  .footer-popular > h2{
+      font-size: 60px;
+  }
+
+
+  .footer-popular > p{
+      font-size: 40px;
+  }
+
+
+  .footer-breeds > h2{
+    padding-top: 40px;
+    font-size: 60px;
+  }
+
+  .footer-breeds > p {
+      font-size: 40px;
+  }
+
+  .footer-join > h2 {
+      padding-top: 40px;
+      font-size: 60px;
+  }
+  
+  .footer-join > p {
+      font-size: 40px;
+  }
+
+
+  .footer-join > input{
+    width: 700px;
+    height: 80px;
+    font-size: 30px;
+  }
+
+  .footer-svg {
+      margin-left: 620px;
+      width: 70px;
+      height: 70px;
+      margin-top: -75px;
+      
+  }
+
+  .footer-svg > img{
+      width: 40px;
+      margin: 5px;
+  }
+
+    
+}
+

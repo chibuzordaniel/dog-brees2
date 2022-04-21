@@ -1,0 +1,25 @@
+@import 'navbar.css';
+@import 'showcase.css';
+@import 'card.css';
+@import 'footer.css';
+@import 'footer2.css';
+
+
+
+body{
+    background-color: #ccc;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+ max-width: 1200px;
+ margin: 0 auto;
+}

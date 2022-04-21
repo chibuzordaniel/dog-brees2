@@ -1,0 +1,62 @@
+
+.nav-log{
+    display: flex;
+    
+}
+
+.navbar-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 2px solid #E3E7EE;
+   
+    
+    
+
+}
+
+.nav-log > h1 {
+    padding:15px ;
+}
+
+.navbar-content > p {
+    padding-top: 30px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+
+
+    .navbar-content {
+        width: 1200px;
+        height: 150px;
+    }
+
+    .nav-log > img{
+        padding-left: 40px;
+        width: 150px;
+    }
+
+    .nav-log > h1 {
+        display: none;
+    }
+
+    #date{
+      position: relative;
+      right: 55px;
+      font-size: 40px;
+      padding-top: 60px;
+    }
+
+
+    
+
+    
+}
