@@ -82,8 +82,10 @@ padding-left: 20px;
    
    .footerB {
    
-    margin-left: -1130px;
+    position: relative;
+    right: 1130px;
     font-size: 60px;
+    min-width: 300px;
    }
 
      
