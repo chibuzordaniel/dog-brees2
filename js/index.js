@@ -19,7 +19,7 @@ const africa = 'african';
 // displayNumber
 //asynchrous function
 
-const dogBreed = 'affenpinscher'
+const dogBreed = 'boxer'
 
 const getNumberOfImages = async (e) => {
   
