@@ -37,6 +37,10 @@
     height: 29px;
 }
 
+.dog-p > p{
+    color: #5F718C;
+}
+
 
 .footer-content > p{
     width: 317px;
@@ -128,6 +132,7 @@
   
   .footer-join > p {
       font-size: 40px;
+      
   }
 
 
